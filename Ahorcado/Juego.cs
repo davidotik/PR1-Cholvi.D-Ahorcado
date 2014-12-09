@@ -10,12 +10,8 @@ namespace Ahorcado
     {
 
 
-        public static void PonerLaPalabra
-        {
-           
+        
 
-
-        }
 
 
 
