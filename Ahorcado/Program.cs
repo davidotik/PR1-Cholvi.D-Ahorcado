@@ -11,11 +11,11 @@ namespace Ahorcado
         static void Main(string[] args)
         {
             
-            Console.ForegroundColor = ConsoleColor.Green;
+            Console.ForegroundColor = ConsoleColor.Green; //Pinta de verde el titulo del Juego.
             
 
 
-            Console.Clear();
+            Console.Clear(); //mUESTRA EL TITULO DEL JUEGO EN ASCII
             Console.WriteLine(@"     ___           ___           ___           ___           ___           ___           ___           ___ ");
             Console.WriteLine(@"    /\  \         /\__\         /\  \         /\  \         /\  \         /\  \         /\  \         /\  \");
             Console.WriteLine(@"   /::\  \       /:/  /        /::\  \       /::\  \       /::\  \       /::\  \       /::\  \       /::\  \");
@@ -29,18 +29,18 @@ namespace Ahorcado
             Console.WriteLine(@"    \/__/         \/__/         \/__/         \|__|         \/__/         \/__/         ~~            \/__/");
 
 
-            Console.ResetColor();
+            Console.ResetColor();//Pone otyra vez los colores por defecto.
 
             
                                                                                                                                                                                         
-            Console.WriteLine("Vienvenido al juego del ahorcado.");
+            Console.WriteLine("Bienvenido al juego del ahorcado.");//Muestra un mensaje de vienvenida al juego.
            
 
-            Console.WriteLine("La palabra contiene letras y es algo que se encuentra a tu alredodor.");
+            Console.WriteLine("La palabra contiene letras y es algo que se encuentra a tu alredodor.");//Muestrea una frase por pantalla que es una pista.
             Console.ReadKey();
             
           
-            Console.WriteLine("_________");
+            Console.WriteLine("_________"); //Muestra el dibujo del ahorcado cuando no tiene ningun fallo.
             Console.WriteLine("|  | ");
             Console.WriteLine("|   ");
             Console.WriteLine(@"|  ");
@@ -49,7 +49,7 @@ namespace Ahorcado
             Console.WriteLine("| ");
             Console.WriteLine("__________________");
 
-            Console.WriteLine("_________");
+            Console.WriteLine("_________"); // Mustra el dibujo del ahorcado con un fallo.
             Console.WriteLine("|  | ");
             Console.WriteLine("|  0 ");
             Console.WriteLine(@"|  ");
@@ -58,7 +58,7 @@ namespace Ahorcado
             Console.WriteLine("| ");
             Console.WriteLine("__________________");
 
-            Console.WriteLine("_________");
+            Console.WriteLine("_________"); //Muestra el dibujo del ahorcado con dos fallos.
             Console.WriteLine("|  | ");
             Console.WriteLine("|  0 ");
             Console.WriteLine(@"| |");
@@ -68,7 +68,7 @@ namespace Ahorcado
             Console.WriteLine("__________________");
 
 
-            Console.WriteLine("_________");
+            Console.WriteLine("_________"); //Muestra el dibujo del ahorcado con tres fallos.
             Console.WriteLine("|  | ");
             Console.WriteLine("|  0 ");
             Console.WriteLine(@"| |\ ");
@@ -78,7 +78,7 @@ namespace Ahorcado
             Console.WriteLine("__________________");
 
 
-            Console.WriteLine("_________");
+            Console.WriteLine("_________"); //Muestra el dibujo del ahorcado con quatro fallos.
             Console.WriteLine("|  | ");
             Console.WriteLine("|  0 ");
             Console.WriteLine(@"| /|\ ");
@@ -88,7 +88,7 @@ namespace Ahorcado
             Console.WriteLine("__________________");
             
 
-            Console.WriteLine("_________");
+            Console.WriteLine("_________"); //Muestra el dibujo del ahorcado con cinco fallos.
             Console.WriteLine("|  | ");
             Console.WriteLine("|  0 ");
             Console.WriteLine(@"| /|\ ");
@@ -97,7 +97,7 @@ namespace Ahorcado
             Console.WriteLine("| ");
             Console.WriteLine("__________________");
 
-            Console.WriteLine("__________________");
+            Console.WriteLine("__________________"); // Muestra el dibujo del ahorcado con seis fallos.
             Console.WriteLine("|  | ");
             Console.WriteLine("|  0 ");
             Console.WriteLine(@"| /|\ ");
@@ -106,7 +106,7 @@ namespace Ahorcado
             Console.WriteLine("| ");
             Console.WriteLine("__________________");
 
-            Console.ForegroundColor = ConsoleColor.Red;
+            Console.ForegroundColor = ConsoleColor.Red;//Muestra el dibujo del ahorcado con siete fallos es decir que ja habremos perdido.
             Console.WriteLine("_________");
             Console.WriteLine("|  | ");
             Console.WriteLine("|  X ");
@@ -117,7 +117,7 @@ namespace Ahorcado
             Console.WriteLine("__________________");
 
             Console.ResetColor();
-Console.WriteLine(" ██░ ██  ▄▄▄        ██████     ██▓███  ▓█████  ██▀███  ▓█████▄  ██▓▓█████▄  ▒█████ ");         
+Console.WriteLine(" ██░ ██  ▄▄▄        ██████     ██▓███  ▓█████  ██▀███  ▓█████▄  ██▓▓█████▄  ▒█████ ");         //Muestra el final del juego diciendo quehas perdido echo con ASCII
 Console.WriteLine("▓██░ ██▒▒████▄    ▒██    ▒    ▓██░  ██▒▓█   ▀ ▓██ ▒ ██▒▒██▀ ██▌▓██▒▒██▀ ██▌▒██▒  ██▒");       
 Console.WriteLine("▒██▀▀██░▒██  ▀█▄  ░ ▓██▄      ▓██░ ██▓▒▒███   ▓██ ░▄█ ▒░██   █▌▒██▒░██   █▌▒██░  ██▒");     
 Console.WriteLine("░▓█ ░██ ░██▄▄▄▄██   ▒   ██▒   ▒██▄█▓▒ ▒▒▓█  ▄ ▒██▀▀█▄  ░▓█▄   ▌░██░░▓█▄   ▌▒██   ██░");    
