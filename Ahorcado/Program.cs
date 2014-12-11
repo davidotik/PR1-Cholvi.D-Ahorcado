@@ -57,7 +57,7 @@ namespace Ahorcado
             palabraescogida = palabra[na];
             totalLetras = palabraescogida.Length;
 
-            Console.WriteLine("tiene tantas "+totalLetras+"letras");
+            Console.WriteLine("tiene en total "+totalLetras+" letras");
 
             for (contador = 0; contador <= totalLetras - 1; contador++)
             {
