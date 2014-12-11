@@ -125,7 +125,7 @@ namespace Ahorcado
             Console.WriteLine("░  ░  ░      ░  ░      ░                 ░  ░   ░        ░     ░     ░        ░ ░    ░  ");
 
                     Console.ReadKey();
-                    break;
+                    
                     
 
                 }
@@ -223,7 +223,7 @@ namespace Ahorcado
                }
 
 
-            } while (intentos<=7);      
+            } while (intentos<7);      
 
 
            
