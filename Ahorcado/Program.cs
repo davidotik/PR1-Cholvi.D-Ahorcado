@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace Ahorcado
 {
+    //RAFAPUIG: Pero esto que es? Es una broma??!!! Solamente una funcion Main para todo el programa!!
+    // Y la separacion de responsabilidades???!!!
     class Program
     {
         static void Main(string[] args)
