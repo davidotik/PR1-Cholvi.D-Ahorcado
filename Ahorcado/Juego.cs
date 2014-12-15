@@ -8,17 +8,16 @@ namespace Ahorcado
 {
     class Juego
     {
+       
+        
+
+   
+
 
 
         
 
 
 
-
-
-
-
-
-        
     }
 }
